@@ -1,7 +1,7 @@
 # Makino2020
 OP-TEE用プログラム
 
-OP-TEEのビルドは[このサイト](https://lepidum.co.jp/blog/2020-03-13/tee/)が分かりやすく、同じ手順で実行しました  
+OP-TEEのビルドは[このサイト](https://lepidum.co.jp/blog/2020-03-13/tee/){target:_blank}が分かりやすく、同じ手順で実行しました  
 
 
 1. **hello_world_ta.c**  

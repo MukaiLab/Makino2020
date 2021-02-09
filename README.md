@@ -1,7 +1,8 @@
 # Makino2020
 OP-TEE用プログラム
 
-OP-TEEをビルドする際には[このサイト](https://lepidum.co.jp/blog/2020-03-13/tee/)を参考にしました
+OP-TEEのビルドは[このサイト](https://lepidum.co.jp/blog/2020-03-13/tee/)が分かりやすく、同じ手順で実行しました  
+
 
 1. **hello_world_ta.c**  
 Secure Worldで実行されるプログラム(TA: Turusted Application)  
@@ -13,8 +14,8 @@ Normal Worldから実行するプログラム
 
 3. **optee_rpi3**  
 Raspberry Pi 3 MOdel BをPCとUART接続し、ターミナルからRaspberry Piを起動する際のコマンド用スクリプト  
-Raspberry PiのログをPC内に保存できる。起動時刻がファイル名に含まれるようにした  
-picocom -b 115200 /dev/ttyUSB0 と一々打つのが面倒だったので作成した  
+Raspberry PiのログをPC内に保存できます。起動時刻がファイル名に含まれるようにしました  
+picocom -b 115200 /dev/ttyUSB0 と一々打つのが面倒だったので作成しました  
 
 4. **soc_term.c**  
 エミュレーターであるQemuのNormal WorldとSecure Worldのログを保存するためのプログラム  

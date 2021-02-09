@@ -2,7 +2,7 @@
 OP-TEE用プログラム
 
 1. **hello_world_ta.c**  
-Secure Worldで実行されるプログラム(TA: Turusted Application)
+Secure Worldで実行されるプログラム(TA: Turusted Application)  
 /opteeをインストールしたディレクトリ/optee_examples/hello_world/ta/　に置きます  
 
 2. **main.c**  

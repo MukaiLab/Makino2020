@@ -1,6 +1,8 @@
 # Makino2020
 OP-TEE用プログラム
 
+OP-TEEをビルドする際には[このサイト](https://lepidum.co.jp/blog/2020-03-13/tee/)を参考にしました
+
 1. **hello_world_ta.c**  
 Secure Worldで実行されるプログラム(TA: Turusted Application)  
 /opteeをインストールしたディレクトリ/optee_examples/hello_world/ta/　に置きます  
